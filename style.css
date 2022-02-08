@@ -1,0 +1,49 @@
+.head{
+    display: inline;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(23, 5, 41, 0.5);
+    color: white;
+}
+
+.modal {
+display:    none;
+position:   fixed;
+z-index:    1000;
+top:        0;
+left:       0;
+height:     100%;
+width:      100%;
+background: rgba( 255, 255, 255, .8 ) 
+            url('http://i.stack.imgur.com/FhHRx.gif') 
+            50% 50% 
+            no-repeat;
+}
+
+body.loading .modal {
+overflow: hidden;   
+}
+
+body.loading .modal {
+display: block;
+}
+
+.input{
+    border-radius: 10px;
+}
+
+.info{
+    padding: 20px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 13px;
+    padding: 6px;
+  }
+  .bottom a {
+    text-decoration: underline;
+  }
